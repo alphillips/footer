@@ -1,6 +1,6 @@
 {
-  "name": "footer",
-  "version": "1.0.0",
+  "name": "@react-ag-components/footer",
+  "version": "0.0.1",
   "description": "footer React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -30,7 +30,10 @@
   "author": "",
   "homepage": "",
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/alphillips/footer.git"
+  },
   "keywords": [
     "react-component"
   ]

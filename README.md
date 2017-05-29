@@ -1,16 +1,45 @@
 # footer
 
-[![Travis][build-badge]][build]
-[![npm package][npm-badge]][npm]
-[![Coveralls][coveralls-badge]][coveralls]
+React footer component for external web apps
 
-Describe footer here.
+## Usage
 
-[build-badge]: https://img.shields.io/travis/user/repo/master.png?style=flat-square
-[build]: https://travis-ci.org/user/repo
+### Install
+```
+npm i @react-ag-components/footer --save
+```
+### Use in your project
+```
+import Footer from '@react-ag-components/footer'
+```
 
-[npm-badge]: https://img.shields.io/npm/v/npm-package.png?style=flat-square
-[npm]: https://www.npmjs.org/package/npm-package
+```
+<Footer />
+```
 
-[coveralls-badge]: https://img.shields.io/coveralls/user/repo/master.png?style=flat-square
-[coveralls]: https://coveralls.io/github/user/repo
+### Properties
+
+
+## Contributing
+
+Get the repository
+```
+git clone https://github.com/alphillips/footer.git
+```
+
+Update dependencies
+```
+npm install
+```
+
+Run the project
+```
+npm start
+```
+
+### Deploy to npm
+#### Build
+`npm run build -- --copy-files`
+
+#### Publish
+`npm publish --access public`
